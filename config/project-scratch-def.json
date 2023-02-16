@@ -1,8 +1,8 @@
 {
-    "orgName": "DX@Scale Demo Org",
+    "orgName": "urbanni-fsc-dev-ed",
     "edition": "Developer",
     "hasSampleData": false,
-    "features": ["Communities", "Walkthroughs", "EnableSetPasswordInApi"],
+    "features": ["Communities", "Walkthroughs", "EnableSetPasswordInApi", "FinancialServicesUsers:1"],
     "settings": {
         "communitiesSettings": {
             "enableNetworksEnabled": true
@@ -22,6 +22,11 @@
         "userEngagementSettings": {
             "enableOrchestrationInSandbox": true,
             "enableShowSalesforceUserAssist": false
+        },
+        "securitySettings": {
+            "passwordPolicies": {
+                "minimumPasswordLifetime": false
+            }
         }
     }
 }
